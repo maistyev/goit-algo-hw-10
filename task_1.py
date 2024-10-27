@@ -1,4 +1,4 @@
-from pulp import *
+from pulp import LpProblem, LpMaximize, LpVariable, LpInteger, LpStatus, value
 
 # Створюємо задачу максимізації
 prob = LpProblem("Оптимізація_виробництва_напоїв", LpMaximize)
